@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check this out!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #111; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        img {
+            max-width: 90%;
+            max-height: 90vh;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+            transition: transform 0.2s;
+        }
+        img:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Clicking this image triggers the redirect -->
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600" alt="Click Me">
+    </a>
+
+</body>
+</html>
